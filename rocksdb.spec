@@ -21,7 +21,7 @@ specially suitable for storing multiple terabytes of data in a single database.
 
 %package devel
 Summary: Development files for rocksdb
-Requires: %{name}%{?_isa} = %{version}-%{release}
+Requires: %{name}%{?_isa} = %{version}-%{release}, zlib-devel, bzip2-devel, snappy-devel
 
 %description devel
 Development files for rocksdb
