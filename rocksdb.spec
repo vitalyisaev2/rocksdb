@@ -8,7 +8,8 @@ URL:        https://github.com/facebook/rocksdb.git
 
 BuildRequires:    gtest-devel, zlib-devel, snappy-devel, bzip2-devel, lz4-devel, libzstd-devel
 
-Source0:    https://github.com/facebook/rocksdb/archive/v%{version}.tar.gz
+#Source0:    https://github.com/facebook/rocksdb/archive/v%{version}.tar.gz
+Source0:    https://github.com/facebook/rocksdb/archive/master.zip
 Patch0:     rocksdb-5.2.1-install_path.patch
 
 %description Rocksdb is a library that forms the core building block for a fast key value
@@ -64,7 +65,7 @@ make install-shared \
 
 %changelog
 * Mon Jan 29 2018 Vitaly Isaev <vitalyisaev2@gmail.com> - 5.9.2-2
-- Temporary update to master (see )
+- Temporary update to master (see https://github.com/tecbot/gorocksdb/issues/126)
 
 * Mon Jan 29 2018 Vitaly Isaev <vitalyisaev2@gmail.com> - 5.9.2-1
 - Update to version 5.9.2
