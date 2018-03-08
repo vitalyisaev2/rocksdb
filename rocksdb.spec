@@ -8,8 +8,7 @@ URL:        https://github.com/facebook/rocksdb.git
 
 BuildRequires:    gtest-devel, zlib-devel, snappy-devel, bzip2-devel, lz4-devel, libzstd-devel, libasan
 
-#Source0:    https://github.com/facebook/rocksdb/archive/v%{version}.tar.gz
-Source0:    https://github.com/facebook/rocksdb/archive/master.zip
+Source0:    https://github.com/facebook/rocksdb/archive/v%{version}.tar.gz
 Patch0:     rocksdb-5.2.1-install_path.patch
 
 %description 
