@@ -12,7 +12,8 @@ BuildRequires:    gtest-devel, zlib-devel, snappy-devel, bzip2-devel, lz4-devel,
 Source0:    https://github.com/facebook/rocksdb/archive/master.zip
 Patch0:     rocksdb-5.2.1-install_path.patch
 
-%description Rocksdb is a library that forms the core building block for a fast key value
+%description 
+Rocksdb is a library that forms the core building block for a fast key value
 server, especially suited for storing data on flash drives. It has a
 Log-Structured-Merge-Database (LSM) design with flexible trade offs between
 Write-Amplification-Factor (WAF), Read-Amplification-Factor (RAF) and
