@@ -9,7 +9,7 @@ URL:        https://github.com/facebook/rocksdb.git
 BuildRequires:    gtest-devel, zlib-devel, snappy-devel, bzip2-devel, lz4-devel, libzstd-devel
 
 Source0:    https://github.com/facebook/rocksdb/archive/v%{version}.tar.gz
-Patch0:     rocksdb-5.13.1-install_path.patch
+Patch0:     rocksdb-5.16.0-install_path.patch
 
 %description
 Rocksdb is a library that forms the core building block for a fast key value
